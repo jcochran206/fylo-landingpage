@@ -5,28 +5,36 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
   <title>Frontend Mentor | Beta sign up split layout Challenge</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
-  All your files in one secure location, accessible anywhere.
-
-  Fylo stores all your most important files in one secure location. 
-  Access them wherever you need, share and collaborate with friends, 
-  family and co-workers.
-
-  Sign up for early access
-
-  Sign Up
-
-  Privacy Policy
-
+  <nav>
+    <a href="#"><img src="images/logo.svg" alt=""> </a>
+    <i class="fab fa-twitter-square"></i>
+    <i class="fab fa-facebook"></i>
+    <i class="fas fa-envelope"></i>
+  </nav>
+  <div class="row">
+    <div class="right-col top">
+      <img src="images/illustration-main.svg" alt="">
+    </div>
+    <div class="left-col middle">
+      <h1>All your files in one secure location, accessible anywhere.</h1>
+      <p>  Fylo stores all your most important files in one secure location.
+        Access them wherever you need, share and collaborate with friends,
+        family and co-workers.</p>
+        <form class="" action="index.html" method="post">
+          <h2>Sign up for early access</h2>
+          <input type="text" name="signup" value="">
+          <button type="button" name="button" class="btn"> Sign Up</button>
+        </form>
+    </div>
+  </div>
+  <div class="privacy">
+    <a href="#">Privacy Policy</a>
+  </div>
   <footer>
     <p class="attribution">
       This page started life as a challenge on <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a> 🎉
