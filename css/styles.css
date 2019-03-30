@@ -7,6 +7,11 @@ body {
 	color: hsl(243, 87%, 12%)
 }
 
+.wrapper {
+	display: flex;
+	min-height: 100%;
+}
+
 h1 {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
@@ -42,13 +47,21 @@ p {
 	height: 100%;
 }
 
+/* right column */
 
+.right-column {
+	width: 55%;
+}
 
-
+section {
+	text-align:left;
+	padding-left: 5%;
+	width: 90%;
+	margin-top: 10%;
+}
 .attribution {
-    font-size: 11px;
-    text-align: center;
-  }
+	font-size: 11px; text-align: center;
+}
 .attribution a {
     color: hsl(228, 45%, 44%);
   }
